@@ -11,7 +11,7 @@ def sort(a=[]):
 a=[random.randint(0,1000) for i in range(100)]
 print("unsorted array")
 print(a)
-a=sort1(a)
+a=sort(a)
 print("Sorted array")
 print(a)
 
